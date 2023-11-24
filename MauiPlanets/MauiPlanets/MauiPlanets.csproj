@@ -51,4 +51,22 @@
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <None Remove="Resources\Fonts\Montserrat-Bold.ttf" />
+	  <None Remove="Resources\Fonts\Montserrat-Medium.ttf" />
+	  <None Remove="Resources\Fonts\Montserrat-SemiBold.ttf" />
+	  <None Remove="Views\" />
+	  <None Remove="Services\" />
+	  <None Remove="Models\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <BundleResource Include="Resources\Fonts\Montserrat-Bold.ttf" />
+	  <BundleResource Include="Resources\Fonts\Montserrat-Medium.ttf" />
+	  <BundleResource Include="Resources\Fonts\Montserrat-SemiBold.ttf" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Views\" />
+	  <Folder Include="Services\" />
+	  <Folder Include="Models\" />
+	</ItemGroup>
 </Project>
