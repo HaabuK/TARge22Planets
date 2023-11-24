@@ -58,11 +58,37 @@
 	  <None Remove="Views\" />
 	  <None Remove="Services\" />
 	  <None Remove="Models\" />
+	  <None Remove="Resources\Images\earth.svg" />
+	  <None Remove="Resources\Images\imgback.png" />
+	  <None Remove="Resources\Images\imgexplore.png" />
+	  <None Remove="Resources\Images\imgfavorite.png" />
+	  <None Remove="Resources\Images\imgmenu.png" />
+	  <None Remove="Resources\Images\imgsearch.png" />
+	  <None Remove="Resources\Images\jupiter.svg" />
+	  <None Remove="Resources\Images\mercury.svg" />
+	  <None Remove="Resources\Images\neptune.svg" />
+	  <None Remove="Resources\Images\saturn.svg" />
+	  <None Remove="Resources\Images\uranus.svg" />
+	  <None Remove="Resources\Images\venus.svg" />
+	  <None Remove="Resources\Images\mars.svg" />
 	</ItemGroup>
 	<ItemGroup>
 	  <BundleResource Include="Resources\Fonts\Montserrat-Bold.ttf" />
 	  <BundleResource Include="Resources\Fonts\Montserrat-Medium.ttf" />
 	  <BundleResource Include="Resources\Fonts\Montserrat-SemiBold.ttf" />
+	  <BundleResource Include="Resources\Images\earth.svg" />
+	  <BundleResource Include="Resources\Images\imgback.png" />
+	  <BundleResource Include="Resources\Images\imgexplore.png" />
+	  <BundleResource Include="Resources\Images\imgfavorite.png" />
+	  <BundleResource Include="Resources\Images\imgmenu.png" />
+	  <BundleResource Include="Resources\Images\imgsearch.png" />
+	  <BundleResource Include="Resources\Images\jupiter.svg" />
+	  <BundleResource Include="Resources\Images\mercury.svg" />
+	  <BundleResource Include="Resources\Images\neptune.svg" />
+	  <BundleResource Include="Resources\Images\saturn.svg" />
+	  <BundleResource Include="Resources\Images\uranus.svg" />
+	  <BundleResource Include="Resources\Images\venus.svg" />
+	  <BundleResource Include="Resources\Images\mars.svg" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Views\" />
